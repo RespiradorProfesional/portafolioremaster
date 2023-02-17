@@ -1,0 +1,48 @@
+:root {
+  --primario: #784d3c; /* Esto se cambia */
+  --secundario: #3ea;
+  --gris: #e1e1e1;
+  --blanco: #ffffff;
+  --negro: #000000;
+}
+
+html {
+  text-align: center;
+}
+
+.anclado {
+  position: fixed;
+  display: block;
+  background-color: var(--secundario);
+}
+
+.anclado h2 {
+  margin: 3rem;
+}
+
+.barracambiante {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: var(--primario);
+  max-width: 30rem;
+  border-radius: 3rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+#fotoperfil {
+  border-radius: 50rem;
+  max-width: 40rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.redes img {
+  width: 50px;
+  height: 50px;
+}
